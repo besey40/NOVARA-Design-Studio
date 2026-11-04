@@ -79,8 +79,6 @@ Es gibt noch keine hier belegten Aussagen zu Umsätzen, Marktanteilen oder besse
 
 **Kontakt:** Öffne gern ein [GitHub-Issue](https://github.com/besey40/NOVARA-Design-Studio/issues), wenn du grundsätzlich Interesse hast. Bitte dort keine vertraulichen Informationen oder Zugangsdaten veröffentlichen. Technische Details und eine mögliche Vorführung können wir anschließend besprechen.
 
-➡️ [Ausführliche technische Projektübersicht](TECHNICAL_OVERVIEW.md)
-
 ## Umfang dieses öffentlichen Repositories
 
 Dieses Repository dient der Projektvorstellung und dem Austausch. Es enthält keinen Anwendungscode, keine Zugangsdaten, keine Kundendaten und keine internen Rechercheunterlagen. Die Software ist hier nicht als Open-Source-Projekt veröffentlicht. Es wird keine Nutzungslizenz für die private Anwendung erteilt.
