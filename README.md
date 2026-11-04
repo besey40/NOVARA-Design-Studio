@@ -14,6 +14,47 @@ Product DNA erweitert diesen Ansatz um die visuelle Präsentation — mit gestal
 
 ---
 
+## Den Ablauf sehen
+
+![Animierte Erklärung: Von Eingaben über Recherche, Käuferlogik, Texte und Bilder zur Produktseite](assets/novara-workflow.gif)
+
+*Die Grafik erklärt den automatisierten Ablauf. Sie ist keine Live-Aufzeichnung. [Statische Ansicht ohne Animation](assets/novara-workflow-static.png).*
+
+## Was aus der Recherche tatsächlich entsteht
+
+**Beispiel Körpertrimmer:** Ein dokumentierter Forschungsdurchlauf enthält 22 Evidenzeinträge aus 14 unterschiedlichen URLs. Die Quellen werden nach ihrer Rolle ausgewertet. Diese Zahlen beschreiben den Umfang dieses Beispiels, keine Qualitätsnote.
+
+Entscheidend ist die Verbindung zwischen Fund, Schlussfolgerung und Darstellung:
+
+| Recherchefrage | Erkenntnis und Einordnung | Konsequenz für die Produktseite |
+|---|---|---|
+| Wollen Käufer überall dasselbe Ergebnis? | Kürzen und möglichst glatte Rasur sind unterschiedliche Ergebnisziele. | Die Seite beginnt mit der Entscheidungsfrage: „Kürzen oder möglichst glatt rasieren: Was ist dir wichtig?“ |
+| Muss eine bestehende Pflegeroutine ersetzt werden? | Die recherchierten Routinen und Gegenbefunde werden berücksichtigt. | Der Text erklärt Auswahlmöglichkeiten, statt einen Wechsel pauschal als notwendig darzustellen. |
+| Welche Eigenschaften sind am konkreten Produkt erkennbar? | Schlanke Form, cremeweißes Gehäuse und roségoldfarbene Ringe sind aus den Referenzen beschrieben. | Diese Merkmale werden in Text und visueller Produktdarstellung aufgegriffen. |
+| Welche Aussagen fehlen in den Produktunterlagen? | Unter anderem Wasserfestigkeit und Laufzeit sind nicht ausreichend belegt. | Solche Eigenschaften werden nicht als zugesicherte Kaufvorteile ergänzt. |
+
+**Die Logic dahinter:** Aus einer Quelle wird eine eingeordnete Erkenntnis. Daraus entsteht ein zulässiges Argument — und erst anschließend die Entscheidung, wie es in Text oder Bild vermittelt wird.
+
+```mermaid
+flowchart LR
+    A["Produktbelege & Käufersignale"] --> B["Einordnen & abgleichen"]
+    B --> C["Nutzen, Motive & Einwände"]
+    C --> D["Text & Bildaufgabe"]
+    D --> E["Produktseite"]
+    B --> F["Fehlender Nachweis"]
+    F --> G["Aussage begrenzen oder stoppen"]
+```
+
+*Das Beispiel ist anhand vorhandener interner Laufartefakte zusammengefasst. Es zeigt die Verarbeitung von Erkenntnissen; es belegt keine gemessene Conversion-Steigerung.*
+
+## Einblick in die visuelle Darstellung
+
+![Desktop-Detailansicht aus dem vorhandenen Product-DNA-Designentwurf: cremefarbener Körpertrimmer in einer Badezimmer-Szene](assets/product-dna-desktop-detail.png)
+
+*Originalansicht aus der vorhandenen Desktop-Vorschau. Das sichtbare Produktbild ist als Konzeptbild gekennzeichnet. Die Aufnahme zeigt die Gestaltungsrichtung, kein fertig freigegebenes 3D-Modell und keinen vollständig veröffentlichten Shop.*
+
+---
+
 ## Was NOVARA automatisch übernimmt
 
 ### 1. Das Produkt und seine Käufer analysieren
