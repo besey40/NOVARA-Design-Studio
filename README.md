@@ -1,14 +1,18 @@
 # NOVARA Logic & Product DNA
 
-## Aus Produktinformationen wird ein automatisierter Workflow für Shopify-Produktseiten.
+## Einmal starten. Recherche, Inhalte und Produktseite automatisch weiterverarbeiten.
 
 **Produkt verstehen. Käufer verstehen. Verkaufsargumente entwickeln. Inhalte und Bilder erstellen. Die Produktseite zusammensetzen.**
 
 NOVARA verbindet diese Aufgaben zu einem zusammenhängenden, KI-gesteuerten Prozess. Ausgangspunkt sind eine Produkt-PDF und zwei echte Produktbilder. Daraus entwickelt das System eine strukturierte Grundlage für die Produktpräsentation: recherchierte Erkenntnisse, Käuferprofile, Angebotslogik, Verkaufstexte und Bildkonzepte.
 
-**Der entscheidende Ansatz: Die Ergebnisse einer Phase werden automatisch zur Arbeitsgrundlage der nächsten.** Recherche, Text und Darstellung entstehen dadurch im selben Produktkontext. Der Benutzer muss nicht jeden Arbeitsschritt einzeln anstoßen oder Ergebnisse zwischen verschiedenen Werkzeugen übertragen.
+**Der Kern ist die selbstständige Verarbeitung nach dem Upload.** Die Software startet die definierten Aufgaben, übergibt ihre Ergebnisse an die nächste Phase und führt die vorgesehenen Prüfungen aus. Im regulären Ablauf muss keine Person jede Forschungsphase anstoßen, neue Zwischenprompts schreiben oder Inhalte von Hand in den Seitenaufbau übertragen.
 
-Product DNA erweitert diesen Ansatz um die visuelle Präsentation — mit gestalteten Produktkapiteln, Scroll-Animationen und einer bestehenden Anbindung für geprüfte 3D-Medien.
+Die Ergebnisse bleiben im selben Produktkontext: Recherche wird zur Grundlage der Käuferanalyse, daraus entstehen Angebotslogik, Verkaufstext und Bildaufgaben. Akzeptierte Forschung kann anschließend automatisch eine Seiteninstanz in Product DNA auslösen.
+
+**NOVARA Logic erarbeitet das Produktverständnis. Product DNA überführt den akzeptierten Kontext in eine visuelle Produktpräsentation** — mit gestalteten Kapiteln, Scroll-Animationen, Detailansichten und einer bestehenden Anbindung für geprüfte 3D-Medien.
+
+➡️ **[Product DNA und 3D ausführlich erklärt: Was automatisch passiert und wie Recherche die Darstellung steuert](PRODUCT_DNA.md)**
 
 **Für Shopify-Händler, E-Commerce-Teams und Agenturen, die Produktverständnis und Seitenerstellung in einem durchgängigen Ablauf verbinden möchten.**
 
@@ -105,23 +109,39 @@ Die Automatisierung umfasst mehr als die Generierung einzelner Texte:
 | Definierte Stopppunkte | Fehlende Nachweise, Kontingente oder Qualitätsprobleme führen zu einem erkennbaren Status |
 | Wiederaufnahme | Unterstützte Wartezustände können unter Nutzung vorhandener Ergebnisse fortgesetzt werden |
 
-**NOVARA ist darauf ausgelegt, nach einem Start möglichst viel Arbeit selbstständig zu erledigen.** Menschliche Entscheidungen bleiben dort erforderlich, wo Informationen fehlen, eine Prüfung scheitert oder Ergebnisse beziehungsweise eine Shopify-Installation freigegeben werden müssen.
+**Im regulären Ablauf steuert die Software die Arbeit selbstständig weiter.** Das betrifft das Starten der KI-Aufgaben, ihre Reihenfolge und die Übergabe gespeicherter Ergebnisse. Es ist nicht vorgesehen, dass ein Mensch jede Stufe moderiert oder die Seite während des Auftrags manuell zusammensetzt.
 
-## Product DNA: Forschung wird zur visuellen Produktpräsentation
+Abschließende Freigaben bleiben davon getrennt. Fehlende Informationen, eine gescheiterte Prüfung oder noch nicht vollständig verbundene Medienpfade können aktuell zusätzliche Eingriffe erfordern. Eine fehlerfrei durchlaufende aktuelle 3D-Gesamtkette ohne jeden Eingriff ist noch nicht nachgewiesen.
 
-Product DNA verbindet den akzeptierten Recherchekontext mit einer vorhandenen animierten Kapitelvorlage. Texte, Bildrollen, Farben und verfügbare Medien werden einer zusammenhängenden Präsentation zugeordnet.
+## Product DNA: Von der Recherche zur räumlichen Produktpräsentation
 
-Bereits vorhanden sind:
+Product DNA ist die visuelle Weiterentwicklung des NOVARA-Workflows. Eine vorhandene automatische Fortsetzung wartet auf den akzeptierten Forschungsabschluss, erstellt eine Seiteninstanz und ordnet die Inhalte der bestehenden Kapitelvorlage zu.
 
-- automatisch befüllbare Produktkapitel;
-- Three.js-Modellanzeige mit Beleuchtung und Normalisierung;
-- Scroll-Animationen und Detailansichten;
-- GSAP-/ScrollTrigger-Interaktionen im Medienruntime;
-- reduzierte Bewegung und Ersatzdarstellung bei fehlendem WebGL;
-- HTML- und ZIP-Export der bestehenden Vorschau;
-- Medienadapter für weitere 3D- und Videoverarbeitung.
+**Der Zusammenhang ist konkret:** Produktverständnis und Käuferargumente liefern den Inhalt. Product DNA verbindet ihn mit Textkapiteln, Bildrollen, Farben, Details und den verfügbaren freigegebenen Medien.
 
-Der nächste Entwicklungsschwerpunkt ist die vollständige Verbindung dieser Komponenten mit realen, geprüften Produktmedien und dem aktuellen Shopify-Auslieferungsweg.
+### So arbeitet die vorhandene 3D-Darstellung
+
+- **Three.js lädt und beleuchtet das geeignete Modell.** Die Modellgröße wird für die Präsentation normalisiert.
+- **Scrollen steuert die Sequenz.** Kamera, Produktposition und Textkapitel folgen vorbereiteten Übergängen; auch beim Zurückscrollen.
+- **Die Produktansichten begrenzen die Bewegung.** Je nach Freigabe ist eine volle Drehung, eine eingeschränkte Ansicht oder keine Drehung erlaubt.
+- **Detailansichten führen näher an das Produkt.** Der Benutzer kann zwischen Seitenverlauf und Produktbetrachtung wechseln.
+- **GSAP/ScrollTrigger ergänzen Medienbewegungen.** Im Medienruntime sind Übergänge, Kamerafahrten und Textanimationen vorhanden.
+- **Bilddarstellungen bleiben verfügbar.** Bei fehlendem WebGL oder reduzierter Bewegung bestehen Ersatzwege.
+
+Die Seiten- und Bewegungslogik wird vorab entwickelt. Im Produktlauf verwendet die Software diesen Rahmen; für jedes Produkt muss nicht jede Kameraposition neu von Hand programmiert werden.
+
+```mermaid
+flowchart LR
+    A["NOVARA-Recherche"] --> B["Automatische Seiteninstanz"]
+    B --> C["Texte, Kapitel und Bildrollen"]
+    D["Geprüftes passendes Modell"] --> E["Three.js-Darstellung"]
+    C --> F["Scrollsequenz und Detailansichten"]
+    E --> F
+```
+
+**Aktueller Stand:** Inhaltsübergabe, bestehende 3D-Darstellung und Medienadapter sind vorhanden. Die komplette aktuelle Verbindung aus neuer Recherche, echter Modellerzeugung und Shopify-Installation wird noch fertiggestellt. Eine echte freigegebene Produkt-3D-Demo wird ergänzt, sobald sie vorliegt; ausgeschlossene Platzhalter werden dafür nicht verwendet.
+
+**[Die vollständige Erklärung lesen →](PRODUCT_DNA.md)**
 
 ## Produktidentität und Quellen als gemeinsame Grundlage
 
