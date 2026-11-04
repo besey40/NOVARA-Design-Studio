@@ -124,11 +124,15 @@ Die vorhandenen Vorlagen, Regeln und Abläufe werden vorher entwickelt. Im Produ
 
 **Automatische Verarbeitung und abschließende Freigabe sind unterschiedliche Dinge.** Eine Prüfung durch den Händler am Ende nimmt dem vorherigen automatischen Ablauf nicht seine Funktion. Fehlende Daten, gescheiterte Qualitätsprüfungen und noch nicht verbundene Medienpfade können heute allerdings zusätzliche Eingriffe erfordern.
 
-## 8. Was öffentlich vorzeigbar ist
+## 8. Das vorhandene Ergebnis und die öffentliche 3D-Demo
 
-Die Projektvorstellung enthält eine echte Desktop-Ansicht aus dem vorhandenen Designentwurf und eine als Erklärung gekennzeichnete Ablaufanimation.
+Die Projektvorstellung zeigt eine tatsächlich in Shopify gespeicherte Foundation-Produktseite aus der bestehenden NOVARA-Logic-App. In der [Beispielstrecke](NOVARA_BEISPIEL.md) sind der Einstieg, ein Nutzenkapitel und die Anwendung zu sehen. Die zugeordnete Käuferanalyse und das Ergebnisverzeichnis wurden geprüft.
 
-**Eine echte freigegebene Produkt-3D-Demo liegt für diesen öffentlichen Auftritt noch nicht vor.** Die vorhandenen schwarzen/geometrischen Platzhalter und Testwürfel werden hier nicht als fertiges Produktmodell gezeigt. Eine solche Demo soll später genau die tatsächliche Funktion sichtbar machen: ein geprüftes Produkt, seine Scrollbewegung und seine Detailansichten.
+Dieses Ergebnis gehört zum NOVARA-Logic-Seitenpfad. Es wird nicht als bereits fertiggestellte Product-DNA-3D-Seite bezeichnet.
+
+**Eine echte freigegebene Produkt-3D-Demo liegt für diesen öffentlichen Auftritt noch nicht vor.** Die vorhandenen schwarzen/geometrischen Platzhalter und Testwürfel werden nicht als fertige Produktmodelle gezeigt. Eine spätere echte Demo soll ein geprüftes Produkt, seine Scrollbewegung und seine Detailansichten sichtbar machen.
+
+Die animierte Ablaufgrafik auf der Startseite erklärt die Verarbeitung. Sie ist entsprechend gekennzeichnet und keine Live-Aufzeichnung.
 
 ## 9. Warum diese Verbindung interessant ist
 

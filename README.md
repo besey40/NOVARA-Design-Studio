@@ -1,181 +1,126 @@
 # NOVARA Logic & Product DNA
 
-## Einmal starten. Recherche, Inhalte und Produktseite automatisch weiterverarbeiten.
+## Einmal starten. Produkt recherchieren. Inhalte automatisch weiterverarbeiten.
 
-**Produkt verstehen. Käufer verstehen. Verkaufsargumente entwickeln. Inhalte und Bilder erstellen. Die Produktseite zusammensetzen.**
+**NOVARA verbindet Produktrecherche, Käuferverständnis, Verkaufstexte, Bildplanung und Shopify-Seitenerstellung zu einem zusammenhängenden Workflow.**
 
-NOVARA verbindet diese Aufgaben zu einem zusammenhängenden, KI-gesteuerten Prozess. Ausgangspunkt sind eine Produkt-PDF und zwei echte Produktbilder. Daraus entwickelt das System eine strukturierte Grundlage für die Produktpräsentation: recherchierte Erkenntnisse, Käuferprofile, Angebotslogik, Verkaufstexte und Bildkonzepte.
+Ausgangspunkt sind eine Produkt-PDF und zwei echte Produktbilder. Nach dem Start steuert die Software die definierten Aufgaben, speichert Zwischenergebnisse und gibt sie an die nächste Phase weiter. Im regulären Ablauf muss niemand jede Recherchephase einzeln anstoßen, neue Zwischenprompts schreiben oder die Ergebnisse von Hand zur Seite zusammensetzen.
 
-**Der Kern ist die selbstständige Verarbeitung nach dem Upload.** Die Software startet die definierten Aufgaben, übergibt ihre Ergebnisse an die nächste Phase und führt die vorgesehenen Prüfungen aus. Im regulären Ablauf muss keine Person jede Forschungsphase anstoßen, neue Zwischenprompts schreiben oder Inhalte von Hand in den Seitenaufbau übertragen.
+**NOVARA Logic erarbeitet die Inhalte. Product DNA entwickelt ihre visuelle Präsentation mit Scroll-Interaktionen und 3D weiter.**
 
-Die Ergebnisse bleiben im selben Produktkontext: Recherche wird zur Grundlage der Käuferanalyse, daraus entstehen Angebotslogik, Verkaufstext und Bildaufgaben. Akzeptierte Forschung kann anschließend automatisch eine Seiteninstanz in Product DNA auslösen.
+[Das echte NOVARA-Ergebnis ansehen](#ein-echtes-ergebnis-aus-novara-logic) · [Product DNA und 3D verstehen](PRODUCT_DNA.md) · [Kontakt](https://github.com/besey40/NOVARA-Design-Studio/issues/new)
 
-**NOVARA Logic erarbeitet das Produktverständnis. Product DNA überführt den akzeptierten Kontext in eine visuelle Produktpräsentation** — mit gestalteten Kapiteln, Scroll-Animationen, Detailansichten und einer bestehenden Anbindung für geprüfte 3D-Medien.
+## So arbeitet die Automatisierung
 
-➡️ **[Product DNA und 3D ausführlich erklärt: Was automatisch passiert und wie Recherche die Darstellung steuert](PRODUCT_DNA.md)**
+![Animierte Erklärung des NOVARA-Workflows: Eingaben, Recherche, Käuferlogik, Verkaufstext, Bildpipeline und Produktseite](assets/novara-workflow.gif)
 
-**Für Shopify-Händler, E-Commerce-Teams und Agenturen, die Produktverständnis und Seitenerstellung in einem durchgängigen Ablauf verbinden möchten.**
+*Erklärende Ablaufgrafik, keine Live-Aufzeichnung. [Statische Ansicht ohne Animation](assets/novara-workflow-static.png).*
 
----
-
-## Den Ablauf sehen
-
-![Animierte Erklärung: Von Eingaben über Recherche, Käuferlogik, Texte und Bilder zur Produktseite](assets/novara-workflow.gif)
-
-*Die Grafik erklärt den automatisierten Ablauf. Sie ist keine Live-Aufzeichnung. [Statische Ansicht ohne Animation](assets/novara-workflow-static.png).*
-
-## Was aus der Recherche tatsächlich entsteht
-
-**Beispiel Körpertrimmer:** Ein dokumentierter Forschungsdurchlauf enthält 22 Evidenzeinträge aus 14 unterschiedlichen URLs. Die Quellen werden nach ihrer Rolle ausgewertet. Diese Zahlen beschreiben den Umfang dieses Beispiels, keine Qualitätsnote.
-
-Entscheidend ist die Verbindung zwischen Fund, Schlussfolgerung und Darstellung:
-
-| Recherchefrage | Erkenntnis und Einordnung | Konsequenz für die Produktseite |
-|---|---|---|
-| Wollen Käufer überall dasselbe Ergebnis? | Kürzen und möglichst glatte Rasur sind unterschiedliche Ergebnisziele. | Die Seite beginnt mit der Entscheidungsfrage: „Kürzen oder möglichst glatt rasieren: Was ist dir wichtig?“ |
-| Muss eine bestehende Pflegeroutine ersetzt werden? | Die recherchierten Routinen und Gegenbefunde werden berücksichtigt. | Der Text erklärt Auswahlmöglichkeiten, statt einen Wechsel pauschal als notwendig darzustellen. |
-| Welche Eigenschaften sind am konkreten Produkt erkennbar? | Schlanke Form, cremeweißes Gehäuse und roségoldfarbene Ringe sind aus den Referenzen beschrieben. | Diese Merkmale werden in Text und visueller Produktdarstellung aufgegriffen. |
-| Welche Aussagen fehlen in den Produktunterlagen? | Unter anderem Wasserfestigkeit und Laufzeit sind nicht ausreichend belegt. | Solche Eigenschaften werden nicht als zugesicherte Kaufvorteile ergänzt. |
-
-**Die Logic dahinter:** Aus einer Quelle wird eine eingeordnete Erkenntnis. Daraus entsteht ein zulässiges Argument — und erst anschließend die Entscheidung, wie es in Text oder Bild vermittelt wird.
-
-```mermaid
-flowchart LR
-    A["Produktbelege & Käufersignale"] --> B["Einordnen & abgleichen"]
-    B --> C["Nutzen, Motive & Einwände"]
-    C --> D["Text & Bildaufgabe"]
-    D --> E["Produktseite"]
-    B --> F["Fehlender Nachweis"]
-    F --> G["Aussage begrenzen oder stoppen"]
-```
-
-*Das Beispiel ist anhand vorhandener interner Laufartefakte zusammengefasst. Es zeigt die Verarbeitung von Erkenntnissen; es belegt keine gemessene Conversion-Steigerung.*
-
-## Einblick in die visuelle Darstellung
-
-![Desktop-Detailansicht aus dem vorhandenen Product-DNA-Designentwurf: cremefarbener Körpertrimmer in einer Badezimmer-Szene](assets/product-dna-desktop-detail.png)
-
-*Originalansicht aus der vorhandenen Desktop-Vorschau. Das sichtbare Produktbild ist als Konzeptbild gekennzeichnet. Die Aufnahme zeigt die Gestaltungsrichtung, kein fertig freigegebenes 3D-Modell und keinen vollständig veröffentlichten Shop.*
-
----
-
-## Was NOVARA automatisch übernimmt
-
-### 1. Das Produkt und seine Käufer analysieren
-
-Nach dem Start verarbeitet NOVARA die Produktunterlagen und Originalbilder und entwickelt einen produktspezifischen Rechercheauftrag. Untersucht werden unter anderem:
-
-- Eigenschaften und erkennbare Besonderheiten des Produkts;
-- mögliche Zielgruppen, Anwendungssituationen und Kaufmotive;
-- Käuferfragen, Einwände und bisherige Lösungsversuche;
-- Wettbewerber, Marktangebote und relevante Quellen;
-- die Grenze zwischen belegten Produkteigenschaften und offenen Informationen.
-
-Die Recherche dient anschließend als Grundlage für die weiteren Inhalte.
-
-### 2. Aus Erkenntnissen eine Verkaufslogik entwickeln
-
-Das System verarbeitet die Forschung zu Käuferprofilen, Nutzenargumenten, Angebotslogik und Verkaufstexten weiter.
-
-Dabei geht es um konkrete Entscheidungen: Welches Problem sollte zuerst erklärt werden? Welcher Nutzen ist für den Käufer relevant? Welcher Einwand muss beantwortet werden? Welche Aussage ist durch die vorhandenen Informationen gedeckt?
-
-Diese Ergebnisse werden gespeichert und an die nachfolgenden Aufgaben übergeben. Neue Anweisungen nach jeder Forschungsphase sind im regulären Ablauf nicht erforderlich.
-
-### 3. Produktbilder planen, erzeugen und prüfen
-
-NOVARA leitet Bildaufgaben aus den Inhalten ab. Die vorhandene Shopify-Bildpipeline umfasst sechs Rollen: Hero, Problem, Nutzen, Vergleich, Anwendung und Vertrauen.
-
-Originalbilder dienen als Referenz für die Produktidentität. Eine visuelle KI-Prüfung bewertet die Ergebnisse; erkannte Fehler können begrenzte Korrekturversuche auslösen. So sollen Bilder und Texte dieselbe Produktgeschichte vermitteln.
-
-### 4. Inhalte zur Produktseite zusammensetzen
-
-Texte, Bilder und Seitenelemente werden über vorhandene Seitenvorlagen zusammengeführt. Die Shopify-App verwaltet Uploads, Aufträge, Bearbeitungsstatus, Detailansichten und Ergebnisse.
-
-Der Hintergrundprozess arbeitet unabhängig davon, ob die Auftragsseite im Browser geöffnet bleibt. Zwischenergebnisse bleiben gespeichert. Nach Freigabe kann der vorhandene Installationspfad eine Produktvorlage und ihre Dateien an Shopify übertragen.
-
----
-
-## Autonomie mit nachvollziehbaren Entscheidungen
-
-Die Automatisierung umfasst mehr als die Generierung einzelner Texte:
-
-| Funktion | Beitrag zum Ablauf |
+| Phase | Was die Software übernimmt |
 |---|---|
-| Automatischer Auftragsstart | Eingaben werden geprüft, gespeichert und zur Verarbeitung eingereiht |
-| Gesteuerte Aufgabenfolge | Forschungsergebnisse werden an Käuferanalyse, Text- und Bildplanung weitergegeben |
-| Dauerhafte Zwischenstände | Ergebnisse und Bearbeitungszustände bleiben dem Auftrag zugeordnet |
-| Qualitätsprüfungen | Struktur, bestimmte Inhaltsgrenzen und Medien werden vor der Weiterverarbeitung kontrolliert |
-| Begrenzte Korrekturen | Bestimmte Fehler können ohne einen neuen Benutzerprompt bearbeitet werden |
-| Definierte Stopppunkte | Fehlende Nachweise, Kontingente oder Qualitätsprobleme führen zu einem erkennbaren Status |
-| Wiederaufnahme | Unterstützte Wartezustände können unter Nutzung vorhandener Ergebnisse fortgesetzt werden |
+| Produkt verstehen | Unterlagen und Originalbilder erfassen, sichtbare Eigenschaften und offene Fragen einordnen |
+| Recherchieren | Einen produktspezifischen Forschungsauftrag entwickeln und Produkt, Käuferfragen, Einwände und Wettbewerb untersuchen |
+| Verkaufslogik entwickeln | Die Erkenntnisse in Käuferanalyse, Nutzenargumente und Angebotslogik weiterverarbeiten |
+| Inhalte erstellen | Darauf aufbauende Verkaufstexte und Bildaufgaben erzeugen; im vorhandenen Shopify-Pfad Bilder erstellen und prüfen |
+| Seite zusammenführen | Texte und Medien in vorhandene Vorlagen übernehmen und ein Shopify-Ergebnis bereitstellen |
 
-**Im regulären Ablauf steuert die Software die Arbeit selbstständig weiter.** Das betrifft das Starten der KI-Aufgaben, ihre Reihenfolge und die Übergabe gespeicherter Ergebnisse. Es ist nicht vorgesehen, dass ein Mensch jede Stufe moderiert oder die Seite während des Auftrags manuell zusammensetzt.
+**Die Übergaben sind Teil der Software.** Die Ergebnisse einer Aufgabe werden zur Arbeitsgrundlage der nächsten. Der Kunde muss den laufenden Auftrag nicht durch wiederholte manuelle Anweisungen moderieren.
 
-Abschließende Freigaben bleiben davon getrennt. Fehlende Informationen, eine gescheiterte Prüfung oder noch nicht vollständig verbundene Medienpfade können aktuell zusätzliche Eingriffe erfordern. Eine fehlerfrei durchlaufende aktuelle 3D-Gesamtkette ohne jeden Eingriff ist noch nicht nachgewiesen.
+Qualitätsprobleme, fehlende Informationen oder Kontingente können den Ablauf anhalten. Unterstützte Wartezustände lassen sich mit vorhandenen Ergebnissen fortsetzen. Abschließende Freigaben und nicht automatisch lösbare Fehler bleiben davon getrennt.
 
-## Product DNA: Von der Recherche zur räumlichen Produktpräsentation
+## Ein echtes Ergebnis aus NOVARA Logic
 
-Product DNA ist die visuelle Weiterentwicklung des NOVARA-Workflows. Eine vorhandene automatische Fortsetzung wartet auf den akzeptierten Forschungsabschluss, erstellt eine Seiteninstanz und ordnet die Inhalte der bestehenden Kapitelvorlage zu.
+### 2-in-1 Foundation-Stick mit Pinsel
 
-**Der Zusammenhang ist konkret:** Produktverständnis und Käuferargumente liefern den Inhalt. Product DNA verbindet ihn mit Textkapiteln, Bildrollen, Farben, Details und den verfügbaren freigegebenen Medien.
+**Die folgende Aufnahme zeigt eine tatsächlich in Shopify gespeicherte NOVARA-Produktseite aus einem abgeschlossenen Auftrag.** Sie wurde am 4. November 2026 in der vorhandenen Shopify-Vorschau aufgenommen.
 
-### So arbeitet die vorhandene 3D-Darstellung
+Zum zugehörigen Auftrag wurden die gespeicherten Eingaben, der Abschlussstatus, die Käuferanalyse und das Ergebnisverzeichnis geprüft. Der Ergebnislink der App führt zu derselben Produktvorlage. Das Verzeichnis enthält unter anderem Recherche, Rohquellen, Käuferanalyse, Angebotsbriefing, Verkaufstext, sechs Bildrollen und Shopify-Exportdateien.
 
-- **Three.js lädt und beleuchtet das geeignete Modell.** Die Modellgröße wird für die Präsentation normalisiert.
-- **Scrollen steuert die Sequenz.** Kamera, Produktposition und Textkapitel folgen vorbereiteten Übergängen; auch beim Zurückscrollen.
-- **Die Produktansichten begrenzen die Bewegung.** Je nach Freigabe ist eine volle Drehung, eine eingeschränkte Ansicht oder keine Drehung erlaubt.
-- **Detailansichten führen näher an das Produkt.** Der Benutzer kann zwischen Seitenverlauf und Produktbetrachtung wechseln.
-- **GSAP/ScrollTrigger ergänzen Medienbewegungen.** Im Medienruntime sind Übergänge, Kamerafahrten und Textanimationen vorhanden.
-- **Bilddarstellungen bleiben verfügbar.** Bei fehlendem WebGL oder reduzierter Bewegung bestehen Ersatzwege.
+![Tatsächlich erzeugte NOVARA-Shopify-Seite: 2-in-1 Foundation-Stick mit Pinsel, Produktbild, Verkaufstext und Kaufbereich](assets/novara-foundation-hero.png)
 
-Die Seiten- und Bewegungslogik wird vorab entwickelt. Im Produktlauf verwendet die Software diesen Rahmen; für jedes Produkt muss nicht jede Kameraposition neu von Hand programmiert werden.
+*Unveränderter Inhaltsausschnitt der Dev-Store-Seite. Preis und Sterne sind dort konfigurierte Demo-Inhalte; sie werden hier nicht als Nachweis echter Verkäufe oder Kundenbewertungen verwendet.*
+
+### Wie die Käuferlogik auf der Seite sichtbar wird
+
+Die Käuferanalyse dieses Laufs behandelt unter anderem den Wunsch nach einem natürlicher wirkenden Ergebnis, kontrolliertem Auftrag und weniger Aufwand durch einen separat benötigten Pinsel. Die fertige Seite greift diese Themen in Text und Bild auf.
+
+![Erzeugtes Nutzenkapitel: Kontrollierter statt schwer, mit passender Produkt- und Anwendungsszene](assets/novara-foundation-benefit.png)
+
+**Das Beispiel zeigt eine konkrete Verarbeitungskette:** Käuferproblem → Nutzenargument → Bildaufgabe → zusammengeführter Seitenabschnitt.
+
+➡️ **[Die vollständige Beispielstrecke mit Anwendung und Einordnung ansehen](NOVARA_BEISPIEL.md)**
+
+Die Aufnahmen belegen ein vorhandenes Shopify-Ergebnis. Sie sind kein Nachweis gemessener Conversion-Steigerung oder eines vollständig eingriffsfreien Ablaufs aller damaligen Zwischenschritte.
+
+## Die Logic hinter den Ergebnissen
+
+NOVARA soll aus recherchierten Informationen nachvollziehbare Inhaltsentscheidungen entwickeln:
+
+| Grundlage | Entscheidung für die Präsentation |
+|---|---|
+| Produktunterlagen und Originalfotos | Welche Eigenschaften dürfen über dieses konkrete Produkt beschrieben werden? |
+| Käuferfragen und Einwände | Was muss die Seite erklären, damit das Angebot verständlich wird? |
+| Nutzen- und Angebotslogik | Welche Argumente gehören in Einstieg, Nutzenkapitel und Anwendung? |
+| Visuelle Produktidentität | Wie sollen Form, Farbe und wichtige Details in den Bildern erhalten bleiben? |
+| Fehlende Nachweise | Welche Aussagen müssen begrenzt oder ausgelassen werden? |
+
+Wettbewerberinformationen werden von eigenen Produktnachweisen unterschieden. Ein fremdes Produkt mit einer bestimmten Eigenschaft belegt diese Eigenschaft nicht für das eigene Angebot.
+
+Dateien, Bilder und Ergebnisse bleiben dem jeweiligen Produktauftrag zugeordnet. Prüfungen und begrenzte Korrekturversuche sollen verhindern, dass ungeeignete oder vertauschte Ausgaben ungeprüft weiterlaufen. KI-Ausgaben benötigen dennoch Qualitätskontrolle.
+
+## Product DNA: Die visuelle Weiterentwicklung mit 3D
+
+**Product DNA verbindet akzeptierte NOVARA-Ergebnisse mit einer vorhandenen animierten Kapitelvorlage.** Eine automatische Fortsetzung kann nach dem Forschungsabschluss eine Seiteninstanz erstellen und Texte, Bildrollen, Farben und verfügbare Medien zuordnen.
+
+Die vorhandene 3D-Darstellung umfasst:
+
+- **Three.js-Modellanzeige:** geeignete Modelle laden, normalisieren und beleuchten;
+- **scrollgesteuerte Sequenzen:** vorbereitete Kamera- und Produktbewegungen mit Textkapiteln verbinden;
+- **Detailansichten:** zwischen erzählerischem Seitenverlauf und näherer Produktbetrachtung wechseln;
+- **begrenzte Perspektiven:** Bewegung nur innerhalb des freigegebenen Ansichtsrahmens;
+- **GSAP-/ScrollTrigger-Interaktionen:** Medienübergänge, Kamerafahrten und Textanimationen im Medienruntime;
+- **Ersatzdarstellungen:** Produktbilder bei fehlendem WebGL oder reduziert gewünschter Bewegung.
+
+Die Seiten- und Bewegungslogik ist vorab entwickelt. Im Produktlauf verwendet die Software diesen Rahmen; nicht jede Kameraposition muss für jedes Produkt erneut von Hand programmiert werden.
 
 ```mermaid
 flowchart LR
-    A["NOVARA-Recherche"] --> B["Automatische Seiteninstanz"]
+    A["Akzeptierte NOVARA-Recherche"] --> B["Automatische Seiteninstanz"]
     B --> C["Texte, Kapitel und Bildrollen"]
     D["Geprüftes passendes Modell"] --> E["Three.js-Darstellung"]
     C --> F["Scrollsequenz und Detailansichten"]
     E --> F
 ```
 
-**Aktueller Stand:** Inhaltsübergabe, bestehende 3D-Darstellung und Medienadapter sind vorhanden. Die komplette aktuelle Verbindung aus neuer Recherche, echter Modellerzeugung und Shopify-Installation wird noch fertiggestellt. Eine echte freigegebene Produkt-3D-Demo wird ergänzt, sobald sie vorliegt; ausgeschlossene Platzhalter werden dafür nicht verwendet.
+**Die oben gezeigte Foundation-Seite ist ein Ergebnis der bestehenden NOVARA-Logic-App.** Die aktuelle vollständige Product-DNA-Kette aus neuer Recherche, echter KI-3D-Produkterzeugung und Shopify-Installation wird noch fertiggestellt. Eine freigegebene echte Produkt-3D-Demo liegt für diesen Auftritt noch nicht vor; Platzhalter werden dafür nicht als fertige Modelle gezeigt.
 
-**[Die vollständige Erklärung lesen →](PRODUCT_DNA.md)**
+➡️ **[Product DNA, Automatisierung und 3D ausführlich erklärt](PRODUCT_DNA.md)**
 
-## Produktidentität und Quellen als gemeinsame Grundlage
+## Was heute vorhanden ist — und was als Nächstes folgt
 
-NOVARA unterscheidet eigene Produktnachweise, Wettbewerberinformationen und Käufererfahrungen. Eine Eigenschaft eines Wettbewerbers darf nicht automatisch als Eigenschaft des eigenen Produkts erscheinen.
+| Vorhanden und dokumentiert | Noch fertigzustellen beziehungsweise zu validieren |
+|---|---|
+| Shopify-App mit Upload, Auftragsverwaltung und Ergebnissen | Aktuelle Entwicklungszweige zu einem verbindlichen Auslieferungsstand zusammenführen |
+| Automatische Aufgabensteuerung und reale Forschungsläufe | Fehlerbehandlung und Wiederaufnahme weiter absichern |
+| In Shopify gespeicherte NOVARA-Produktseite | Aktuellen vollständigen Produktlauf einschließlich echter 3D-Medien nachweisen |
+| Bestehende Product-DNA-Kapitelvorlage, 3D-Runtime und Vorschau-Export | Durchgehende Medienintegration, mobile Performance und aktuelle Shopify-Auslieferung abschließen |
 
-Originalbilder, Forschung und Medien bleiben an das jeweilige Produkt und seinen Auftrag gebunden. Prüfungen sollen verhindern, dass fremde oder nachträglich veränderte Ergebnisse ungeprüft übernommen werden. Fehlende Produktansichten und Informationen werden als Lücken behandelt.
-
-Diese Regeln machen den Ablauf nachvollziehbarer. KI-Ausgaben benötigen dennoch Qualitätskontrolle.
-
-## Entwicklungsstand
-
-**Aktive Entwicklung · Stand: November 2026**
-
-Eine Shopify-App, automatisierte Forschungsabläufe, Bildverarbeitung und Seitenexport sind implementiert. Reale Forschungsläufe, eine frühere Shopify-Installation und der Studio-Vorschau-Export sind dokumentiert.
-
-Die aktuelle vollständige Verbindung von neuem Upload, echter KI-3D-Produkterzeugung und anschließender Shopify-Installation wird noch fertiggestellt und validiert. Die Anwendung ist noch nicht allgemein verfügbar.
+**Entwicklungsstand: November 2026.** Das Projekt wird aktiv entwickelt und ist noch nicht allgemein verfügbar.
 
 ## Gemeinsam weiterentwickeln
 
-Für die Weiterentwicklung und eine spätere kommerzielle Veröffentlichung als Shopify-App suchen wir den Austausch mit technischen Mitgestaltern — besonders in den Bereichen **Frontend, Shopify, Three.js, GSAP, 3D und Animation**.
+Die bestehende Grundlage verbindet Recherche und Automatisierung mit einer konkreten Anwendung. Für die Weiterentwicklung und spätere kommerzielle Veröffentlichung als Shopify-App suchen wir den Austausch mit technischen Mitgestaltern — besonders in **Frontend, Shopify, Three.js, GSAP, 3D und Animation**.
 
-Die Aufgaben sind konkret: vorhandene Automatisierung und Produktdarstellung zusammenführen, reale Produktmedien zuverlässig integrieren und eine hochwertige mobile Nutzung bis zur Shopify-Kaufabwicklung ermöglichen.
+Die Aufgaben sind greifbar: vorhandene Inhalte und Medien zuverlässig zusammenführen, eine hochwertige mobile Produktpräsentation schaffen und den gesamten Ablauf bis zur Shopify-Kaufabwicklung belastbar machen.
 
-**Interesse an einer Zusammenarbeit oder einem fachlichen Austausch?**  
-[Kontakt über GitHub aufnehmen](https://github.com/besey40/NOVARA-Design-Studio/issues/new)
+**[Interesse an einer Zusammenarbeit oder fachlichem Austausch? Kontakt über GitHub aufnehmen.](https://github.com/besey40/NOVARA-Design-Studio/issues/new)**
 
 ---
 
 ### English overview
 
-NOVARA connects product research, buyer understanding, offer development, copy, image planning and Shopify page assembly in an automated workflow. Each phase passes its results to the next, reducing repeated prompting and manual handoffs. Product DNA adds an evolving presentation layer with Three.js, animation and media integration.
-
-Existing components and documented runs provide a working foundation; the latest complete real-product 3D-to-Shopify workflow remains under development. We welcome conversations with potential collaborators experienced in frontend engineering, Shopify, Three.js, GSAP and product visualization.
+NOVARA automates the handoffs between product research, buyer understanding, copy, image planning and Shopify page assembly. This presentation includes screenshots of an actual Shopify result from the existing NOVARA Logic app. Product DNA adds an evolving Three.js and animation layer; its latest complete real-product 3D workflow remains under development. We welcome potential development collaborators.
 
 ---
 
-**Dieses Repository enthält ausschließlich die öffentliche Projektvorstellung. Anwendungscode, interne Forschungsunterlagen und Zugangsdaten bleiben privat.**
+**Dieses Repository enthält ausschließlich die öffentliche Projektvorstellung und ausgewählte Ergebnisaufnahmen. Anwendungscode, Zugangsdaten und interne Forschungsdateien bleiben privat.**
